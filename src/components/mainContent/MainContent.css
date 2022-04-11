@@ -1,0 +1,21 @@
+.main-content {
+    background-color: beige;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+    margin-left: 295px;
+}
+
+.left-panel {
+    border-right-style: ridge;
+    background-color: #38392f;
+    height: calc(100vh - 60px);
+    position: fixed;
+    left: 0;
+    color: whitesmoke;
+}
+
+.right-panel {
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+    background-color: #e9ecef;
+}

@@ -1,0 +1,60 @@
+.feed {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    border-style: groove;
+    border-radius: 9px;
+    background-color: white;
+    text-align: left;
+}
+
+.feed-title {
+    font-weight: bold;
+}
+
+.feed-content {
+    padding: 0.5rem;
+}
+
+.feed-comments {
+    margin: 10px;
+    border-style: groove;
+    border-radius: 7px;
+    background-color: #f3f3eb;
+    text-align: left;
+}
+
+.edit-button, .add-comment-button {
+    max-width: 120px;
+    align-self: flex-end;
+    border-radius: 12px;
+    background-color: beige;
+}
+
+.edit-button {
+    float: right;
+}
+
+.comment-num {
+    padding: 5px;
+}
+
+.add-comment-button {
+    margin: 10px;
+}
+
+.feed-header {
+    display: inline;
+}
+
+.posted-by {
+    padding-left: 15px;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.feed-top-bar {
+    background-color: #beaa71;
+    padding: 1rem;
+}
